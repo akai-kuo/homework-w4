@@ -1,3 +1,36 @@
+/* banner */
+
+.banner{
+  background-image: url(/assets/images/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 288px;
+  padding-bottom: 288px;
+  padding-left: 200px;
+  position: relative;
+}
+
+@media(max-width:767px){
+  .banner{
+    padding-top: 155px;
+    padding-bottom: 155px;
+    padding-left: 24px;
+    background-image: url(/assets/images/banner-sm.png);
+    overflow: hidden;
+  }
+
+  .btn{
+    padding: 12px 24px;
+  }
+}
+
+/* New Arrival */
+
+.new-arrival-title{
+  text-align: center;
+}
+
 /* product */
 
 .product {
@@ -25,9 +58,9 @@
 	}
 }
 
-/* banner */
+/* banner-co-branded */
 
-.banner{
+.banner-co-branded{
   text-align: center;
   background-image: url(/assets/images/banner-co-branded.png);
   background-size: cover;
@@ -52,7 +85,7 @@
 }
 
 @media(max-width:767px){
-  .banner{
+  .banner-co-branded{
     padding: 64px 0;
     background-image: url(/assets/images/banner-co-branded-sm.png);
     overflow: hidden;
