@@ -31,6 +31,9 @@
 	.d-sm-block{
 		display: block;
 	}
+	.d-sm-flex{
+		display: flex;
+	}
 	.d-sm-none{
 		display: none;
 	}
@@ -376,6 +379,10 @@
 	.p-md-24{
 		padding: 24px;
 	}
+	.py-md-0{
+		padding-top: 0;
+		padding-bottom: 0;
+	}
 	.py-md-16{
 		padding-top: 16px;
 		padding-bottom: 16px;
@@ -391,6 +398,9 @@
 	.py-md-40{
 		padding-top: 40px;
 		padding-bottom: 40px;
+	}
+	.pb-md-24{
+		padding-bottom: 24px;
 	}
 	.pb-md-32{
 		padding-bottom: 32px;
@@ -486,6 +496,9 @@
 	}
 	.mb-md-32{
 		margin-bottom: 32px;
+	}
+	.mb-md-40{
+		margin-bottom: 40px;
 	}
 }
 

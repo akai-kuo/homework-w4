@@ -13,6 +13,13 @@
     padding-left: 4px;
 }
 
+@media(max-width:767px){
+    .product-col{
+        width: 100%;
+        padding: 0;
+    }
+}
+
 /* 產品描述 */
 
 .del-price{
@@ -57,6 +64,20 @@
     padding-right: 8px;
 }
 
+@media(max-width:576px){
+    .product-action{
+        flex-direction: row-reverse;
+        .btn-dark{
+            width: calc(100% - 56px);
+        }
+        .btn-light{
+            border: none;
+            padding: 12px;
+            width: 48px;
+        }
+    }
+}
+
 /* 產品資訊 */
 
 .product-info-title{
@@ -69,4 +90,18 @@
 
 .product-info-item p{
     color: $neutral-600;
+}
+
+/* 你可能也喜歡 */
+
+@media(max-width:767px){
+	.other-product-md-row{
+        margin-left: -8px;
+        margin-right: -8px;
+  }
+    .other-product-md-col{
+		min-width: 300px;
+        padding-left: 8px;
+        padding-right: 8px;
+	}
 }
