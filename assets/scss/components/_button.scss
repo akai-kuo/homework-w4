@@ -9,6 +9,10 @@
 	background-color: transparent;
 }
 
+.btn-disabled {
+  cursor: default
+}
+
 @media(max-width:576px){
 	.btn{
 		padding: 8px 16px;
@@ -20,10 +24,31 @@
 	color: $neutral-0;
 }
 
+.btn-dark:hover{
+	background-color: $neutral-700;
+}
+
 .btn-light{
 	border: 1px solid $neutral-900;
 }
 
+.btn-light:hover{
+	background-color: $neutral-900;
+  color: $neutral-0;
+}
+
+.btn-option{
+  border: 1px solid $neutral-300;
+}
+
+.btn-option:hover{
+  border: 1px solid $neutral-600;
+}
+
 .btn-primary{
     background-color: $primary-300;
+}
+
+.btn-primary:hover{
+    color: $primary-500;
 }

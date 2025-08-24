@@ -13,7 +13,7 @@
     padding-left: 4px;
 }
 
-@media(max-width:767px){
+@media(max-width:992px){
     .product-col{
         width: 100%;
         padding: 0;
@@ -37,16 +37,18 @@
     color: $neutral-600;
 }
 
+.product-color.btn{
+  padding: 0;
+}
+
 /* 產品尺寸 */
 
 .btn-product-size{
-    border: 1px solid $neutral-300;
     width: 160px;
 }
 
-.btn-product-size.active, 
-.btn-product-size:hover {
-    border-color: $neutral-900;
+.btn-product-size.btn-disabled{
+    border: 1px solid $neutral-300;
 }
 
 /* 收藏/預約 */
@@ -61,7 +63,9 @@
 }
 
 .product-action .bi{
-    padding-right: 8px;
+    margin-right: 8px;
+    padding-right: 0;
+    width: 20px;
 }
 
 @media(max-width:576px){
@@ -74,6 +78,9 @@
             border: none;
             padding: 12px;
             width: 48px;
+            .bi-heart {
+              margin-right: 0;
+            }
         }
     }
 }
